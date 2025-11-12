@@ -1,0 +1,18 @@
+🧩 Option 1: Change keyboard layout in raspi-config
+
+Run:
+
+sudo raspi-config
+
+
+Navigate to
+Localization Options → Keyboard → Keyboard model and layout
+
+When prompted:
+
+Choose your keyboard model (usually “Generic 104-key PC” is fine).
+
+For layout, pick:
+Other → English (US)
+
+When asked about AltGr, Compose, etc., just press Enter to accept defaults.
